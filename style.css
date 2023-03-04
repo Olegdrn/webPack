@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    margin-left: 30%;
+}
+
+.header {
+    color: red;
+    margin-bottom: 10px;
+}
+
+h2 {
+    margin-bottom: 5px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+h3 {
+    margin-bottom: 10px;
+    color: green;
+}
+
+
+.hidden {
+    display: none;
+}
