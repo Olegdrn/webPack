@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400&display=swap"
+    rel="stylesheet">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script type="module" src="js/main.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <div class="header">
+      <h2>Выберите раздел</h2>
+      <button id="buttonCulc" type="button">Калькулятор</button>
+      <button id="buttonTimer" type="button">Таймер</button>
+    </div>
+    <form id="dateCalc">
+      <h3>Калькулятор дат</h3>
+      <label>
+        <strong>Первая дата:</strong>
+        <input type="date" name="firstDate" />
+      </label>
+      <label>
+        <strong>Вторая дата:</strong>
+        <input type="date" name="secondDate" />
+      </label>
+      <button type="submit">Расчитать промежуток</button>
+      <p id="datecalc__result"></p>
+    </form>
+
+    <form id="timer">
+      <h3>Таймер</h3>
+      <label>
+        <strong>Установите время в секундах</strong>
+        <input type="number" name="timerNumber" />
+      </label>
+      <button type="submit">Старт</button>
+      <button id="stop" type="button">Стоп</button>
+      <p id="timercalc__result"></p>
+    </form>
+  </div>
+
+</body>
+
+</html>
